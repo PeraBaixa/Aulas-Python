@@ -55,7 +55,14 @@ else:
     print(f"O resultado final da operação {v1} {oper} {v2} é {res}")
     print("Obrigado!")
 
-"""lista = ['Porta', 32, True, 3j]
-print(lista)
-for item in lista:
-    print(item)"""
+"""notas = []
+media = 0
+qtnotas = 3
+
+for i in range(qtnotas):
+    notas.append(float(input("Nota "+ str(i+1) +" do aluno: ")))
+    media += notas[i]
+
+media /= qtnotas
+print("As notas do aluno são " + str(notas))
+print(f"A média das notas é {media:.2f}")"""
