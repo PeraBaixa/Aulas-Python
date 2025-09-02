@@ -56,13 +56,20 @@ else:
     print("Obrigado!")
 
 """notas = []
-media = 0
+media = 0.0
 qtnotas = 3
+notamaior = 0.0
+notamenor = 11.0
 
 for i in range(qtnotas):
     notas.append(float(input("Nota "+ str(i+1) +" do aluno: ")))
     media += notas[i]
+    if notas[i] > notamaior:
+        notamaior = notas[i]
+    if notas[i] < notamenor:
+        notamenor = notas[i]
 
 media /= qtnotas
 print("As notas do aluno são " + str(notas))
-print(f"A média das notas é {media:.2f}")"""
+print(f"A média das notas é {media:.2f}")
+print(f"A maior nota é {notamaior} e a menor é {notamenor}")"""
